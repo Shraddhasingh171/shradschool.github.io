@@ -1,0 +1,108 @@
+body{
+    background-image: url(C:\Users\shrad\OneDrive\Desktop\mast\a.jpg);
+    background-repeat:no-repeat;
+background-size:100% 100%
+}
+nav {
+  background-color:#333;
+  overflow:hidden;
+  display: -moz-inline-box;
+  
+ 
+
+}
+nav a{
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: seashell;
+  margin-right: 20px;
+}
+.nav-a-marg:hover{
+  background-color: whitesmoke;
+  color: black;
+}
+.nav-a-marg:visited{
+  color: red;
+}
+.nav-a-marg{
+  margin-right:60px;
+}
+.container{ height: 56px;
+  padding: 0 16px;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  footer{
+    background-color: #333;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+footer a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: white;
+}
